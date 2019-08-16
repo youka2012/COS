@@ -1,9 +1,10 @@
 # COS
 A framework for Node.js servers ,with expressive middleware and ES2017 async/await syntax.
 
-::
+
 架构扩展:
 中间件
+
 请求处理:
 @Hander
 class X{
@@ -13,5 +14,7 @@ class X{
     return {}
   }
 }
+
 统一管理所有hander(单例/工厂)
+
 利用注解管理返回值
